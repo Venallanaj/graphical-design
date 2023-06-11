@@ -1,0 +1,54 @@
+/* GLOBAL STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+section {
+  padding: 7rem 0;
+}
+
+.container {
+  width: 100%;
+  padding: 0 2.5rem;
+  margin: 0 auto;
+  max-width: 160rem;
+}
+.w3-third {
+  box-sizing: border-box;
+  width: 33.33333%;
+  /*padding: 7px;*/
+}
+
+.w3-third img {
+  padding: 10px;
+}
+
+.w3-third img {
+  margin-bottom: -6px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.w3-third img:hover {
+  opacity: 1;
+}
+
+
