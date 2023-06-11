@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Porofolio Grapihical Design</title>
+  </head>
+  <body>
+  
+    <section>
+      <div class="container">
+        <!-- Photo grid -->
+        <div class="w3-row">
+          <div class="w3-third">
+            <img
+              src="./images/Brochure-agents.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+            />
+            <img
+              src="./images/brochure-celebrate.jpeg"
+              style="width: 100%"
+              onclick="onClick(this)"
+            />
+            <img
+              src="./images/brochure-weekend.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+            />
+          </div>
+
+          <div class="w3-third">
+            <img
+              src="./images/Brochure-birthday.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+            />
+            <img
+              src="./images/bussines-card-mockup.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+            />
+            <img
+              src="./images/handyma-services.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+            />
+          </div>
+
+          <div class="w3-third">
+            <img
+              src="./images/Brochure-property.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+            />
+            <img
+              src="./images/logo-news.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt=""
+            />
+            <img
+              src="./images/new-hiring.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt="What a beautiful day!"
+            />
+            <img
+              src="./images/bussines-card.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt=""
+            />
+          </div>
+          <div class="w3-third">
+            <img
+              src="./images/home1.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt=""
+            />
+
+            <img
+              src="./images/surpricefront.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt=""
+            />
+            <img
+              src="./images/surpriceback.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt=""
+            />
+            <img
+              src="./images/brochure-sales.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt=""
+            />
+          </div>
+          <div class="w3-third">
+            <img
+              src="./images/home2.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt=""
+            />
+
+            <img
+              src="./images/hiring.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt=""
+            />
+            <img
+              src="./images/before-face.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt="Before face"
+            />
+          </div>
+          <div class="w3-third">
+            <img
+              src="./images/home9.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+            />
+
+            <img
+              src="./images/Handyman-bussines-card.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+            />
+            <img
+              src="./images/after-face.jpg"
+              style="width: 100%"
+              onclick="onClick(this)"
+              alt="After face"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for full size images on click-->
+      <div
+        id="modal01"
+        class="w3-modal w3-light-blue"
+        style="padding-top: 0"
+        onclick="this.style.display='none'"
+      >
+        <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+        <div
+          class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64"
+        >
+          <img id="img01" class="w3-image" />
+          <p id="caption" style="color: white"></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
